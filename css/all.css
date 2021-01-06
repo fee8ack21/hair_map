@@ -1067,4 +1067,9 @@ header .main-nav ul li .dropdown-icon{
     margin-top: 15px;
 }
 
+@media screen and (max-width:575px){
+    .footer-rights-word{
+        font-size: 12px;
+    }
+}
 /* footer end */
