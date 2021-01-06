@@ -193,6 +193,7 @@ header .main-nav ul li .dropdown-icon{
     background-image: url(../img/slide1.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     /* padding: 100px; */
 }
 
@@ -485,9 +486,11 @@ header .main-nav ul li .dropdown-icon{
     display: inline-block;
     background-color:rgba(255, 255, 255, 0.7);
     border: 1px solid #cf5973;
-    padding: 6px 40px;
+    text-align: center;
+    width: 120px;
+    height: 33px;
     letter-spacing: 1.5px;
-    line-height: 1.2;
+    line-height: 33px;
     font-size: 16px;
     position: absolute;
     bottom: 30px;
@@ -758,7 +761,7 @@ header .main-nav ul li .dropdown-icon{
 
 @media screen and (max-width:768px){    
     .app-div-word h3{
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .app-div-word p{
@@ -787,6 +790,8 @@ header .main-nav ul li .dropdown-icon{
 
 .recuit{
     background-image: url(../img/slide2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .recuit-top{
@@ -861,9 +866,9 @@ header .main-nav ul li .dropdown-icon{
 }
 
 .recuit-bottom-button a:hover{
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 @media screen and (max-width:768px){
@@ -903,11 +908,16 @@ header .main-nav ul li .dropdown-icon{
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        text-align: center;
         /* padding: 0 60px 0 60px; */
     }
 
     .recuit-bottom-button a{
-        margin:0px 20px 0px 20px;
+        margin:5px 20px 5px 20px;
     }
 }
 
