@@ -143,10 +143,19 @@ header .main-nav ul li .dropdown-icon{
     width: 28px;
 }
 
+.shownavbar:active img{
+    -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+            transform:scale(0.9);
+}
+
 .shownavbar img{
     position: relative;
     top: 10px;
     right: 10px;
+    -webkit-transition:0.15s;
+    -o-transition:0.15s;
+    transition:0.15s;
 }
 
 @media(max-width:768px){
